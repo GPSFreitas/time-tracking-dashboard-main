@@ -404,32 +404,33 @@ main .content .user-pannel .pannel-box .box-content ._body-box .period {
 
 main .content .user-pannel .work {
   background-color: #ff8c66;
-  background-image: url(../assets/icons/icon-work.svg);
+  background-image: url(../images/icon-work.svg);
 }
 
 main .content .user-pannel .play {
   background-color: #56c2e6;
-  background-image: url(../assets/icons/icon-play.svg);
+  background-image: url(../images/icon-play.svg);
 }
 
 main .content .user-pannel .study {
   background-color: #ff5c7c;
-  background-image: url(../assets/icons/icon-study.svg);
+  background-image: url(../images/icon-study.svg);
 }
 
 main .content .user-pannel .exercise {
   background-color: #4acf81;
-  background-image: url(../assets/icons/icon-exercise.svg);
+  background-image: url(../images/icon-exercise.svg);
 }
 
 main .content .user-pannel .social {
   background-color: #7536d3;
-  background-image: url(../assets/icons/icon-social.svg);
+  background-image: url(../images/icon-social.svg);
 }
 
 main .content .user-pannel .self {
   background-color: #f1c65b;
-  background-image: url(../assets/icons/icon-self-care.svg);
+  background-image: url(../images/icon-self-care.svg);
+
 }
 
 .attribution {

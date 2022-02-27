@@ -1,61 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
-  <script type="text/javascript" src="data.json"> </script>
-  
-  <title>Frontend Mentor | Time tracking dashboard</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
-  <header class="text-center">
-    <div class="container">
-      <h1 class="font-weght-light">Dashboard</h1>
-    </div>
-  </header>
-  <section class="team pb-5">
-    <div class="container">
-      <div class="row">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-4 col-sm-6 text-center">
-              <div class="box">
-                <div class="avtar">
-                  <img class="img-fluid" src="images/image-jeremy.png" alt="Jeremy">
-                </div>
-                <div class="box_content">
-                  <span class="post">Report for</span>
-                  <h3 class="title">Jeremy Robson</h3>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-md-4 col-sm-6 text-center">
-              <div class="box">
-                <div class="avtar">
-                  <img class="img-fluid" src="images/image-jeremy.png" alt="Jeremy">
-                </div>
-                <div class="box_content">
-                  <span class="post">Report for</span>
-                  <h3 class="title">Jeremy Robson</h3>
-                </div>
-              </div>
-            </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/images/favicon-32x32.png"
+    />
+    <title>Frontend Mentor | Time tracking dashboard</title>
+    <link rel="stylesheet" href="./css/style.mobile.css" />
+    <link rel="stylesheet" media="(min-width: 900px)" href="./css/style.desktop.css" />
+  </head>
+  <body>
+    <main>
+      <div class="content">
+        <div class="user-wrapper">
+          <div class="_header">
+            <img
+              src="./images/image-jeremy.png"
+              alt="the good man called Jeremy"
+            />
+            <h1>Report for <span>Jeremy Robson</span></h1>
+          </div>
+          <div class="_footer">
+            <button id="daily">Daily</button>
+            <button id="weekly" class="active">Weekly</button>
+            <button id="monthly">Monthly</button>
           </div>
         </div>
+        <div class="user-pannel">
+        </div>
       </div>
-    </div>
-  </section>
-    
-</body>
+    </main>
+    <script src="./js/service.js"></script>
+    <script src="./js/getDailyReport.js"></script>
+    <script src="./js/getWeeklyReport.js"></script>
+    <script src="./js/getMonthlyReport.js"></script>
+    <script src="./js/index.js"></script>
+  </body>
 </html>
